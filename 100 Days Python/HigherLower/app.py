@@ -43,6 +43,7 @@ while True:
         score += 1 
         a = user
     else:
+        
         print("You lost")
         print(f"Score was {score}")
         break
