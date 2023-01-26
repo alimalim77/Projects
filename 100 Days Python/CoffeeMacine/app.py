@@ -1,5 +1,4 @@
 
-
 dishes = ["Cappuccino","Latte","Espresso"]
 machineWater = 300
 machineCoffe = 300
@@ -70,3 +69,8 @@ while inp != "close":
             print('Shortage of Money!')
     else:
         print("Wrong Input!")
+
+
+#Total Profit and Dynamic Change to Return Money Can Be Added From Solution Tutorial
+#Be descriptive with what resource was less and what is required for making coffee
+#Code Refactoring
