@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/My Notebook/Desktop/Projects/100 Days Python/CoffeeMacine",
-      "program": "c:/Users/My Notebook/Desktop/Projects/100 Days Python/CoffeeMacine/build/Debug/outDebug",
+      "cwd": "c:/Users/My Notebook/Desktop/Projects/PharmaScroll",
+      "program": "c:/Users/My Notebook/Desktop/Projects/PharmaScroll/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

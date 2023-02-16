@@ -6,15 +6,15 @@ import React, {useState, useRef, useEffect} from 'react'
 
 
 function FormWithFocus() {
-  const nameRef = useRef(null);
-  const emailRef = useRef(null);
-  const addressRef = useRef(null);
+  const nameRef = ____(null);
+  const emailRef = ____(null);
+  const addressRef = ____(null);
 
   const [submittedName, setSubmittedName] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setSubmittedName(nameRef.current.value);
+    // setSubmittedName(nameRef.current.value);
     console.log(`Name: ${nameRef.current.value}`);
 
   };

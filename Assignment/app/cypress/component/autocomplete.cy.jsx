@@ -4,8 +4,7 @@ describe('Test the complete functionality', () => {
       cy.mount(<Autocomplete/>)
       cy.get('input[type="text"]').type('John Doe');
       cy.get('input[type="submit"]').click();
-  
-      cy.wait(1000);
+      cy.wait(____);
       cy.get('p').should('have.text', 'Submitted name: John Doe');
 
   })
